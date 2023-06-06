@@ -1,0 +1,107 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    width: 800px;
+    border: rgba(188, 188, 188, 0.53) 1px solid;
+    padding: 5%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+
+.profile img{
+    height: 80px;
+    min-width: 80px;
+    max-width: 80px;
+    border-radius: 50%;
+}
+
+.profile section{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.profile section *{
+    padding: 0;
+    margin: 0;
+}
+
+.profile h3{
+    color: rgb(53, 212, 117);
+
+}
+
+.profile button{
+    background-color: rgb(53, 212, 117);
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    height: 100%;
+    width: 150px;
+    font-family: sans-serif;
+    font-size: large;
+
+}
+
+.all p{
+    color: white;
+}
+
+section iframe{
+    border-radius: 10px;
+    border: 0;
+    height: 400px;
+}
+
+.likeAppart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.likeAppart button{
+    color: rgb(129, 39, 185);
+    background-color: transparent;
+    border: 0;
+}
+
+.likeAppart button svg:hover{
+    color: rgb(53, 212, 117);
+}
+
+@media screen and (max-width: 400px){
+
+    
+
+    .container{
+        background-color:  rgb(27, 27, 27);
+        width: 100vw;
+    }
+
+    .all{
+        width: 300px; 
+    }
+
+    .profile img{
+        height: 40px;
+        min-width: 40px;
+        max-width: 40px;
+    }
+
+    .all iframe{
+        width: 300px;
+        height: 200px;
+    }
+    
+}

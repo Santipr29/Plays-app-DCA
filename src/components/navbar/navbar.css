@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(27, 27, 27);
+    position: static;
+    width: 100%;
+    
+}
+
+.logo{
+    height: 80px;
+    margin: 1%;
+}
+
+.locations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    font-size: 20px;
+    gap: 10px;
+    border: white 3px solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 20px;
+}
+
+.profile{
+    margin: 1%;
+
+}
+
+.btnprofile{
+    background-color: transparent;
+    border: none;
+}
+
+.profileImg{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.home, .friends, .saved{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+.home:hover, .friends:hover, .saved:hover{
+    color: rgb(53, 212, 117);
+}
+
+@media screen and (max-width: 400px){
+
+    .logo{
+        height: 65px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    .locations{
+        width: 65%;
+        font-size: 18px;
+        gap: 14px;
+    }
+    
+    .home, .friends, .saved{
+        color: white;
+        text-decoration: none;
+        background-color: transparent;
+        border: none;
+        font-size: 18px;
+    }
+
+    .profileImg{
+        width: 50px;
+        min-height: 50px;
+        max-height: 50px;
+        margin: 15px;
+    }
+    
+}

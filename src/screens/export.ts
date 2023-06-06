@@ -1,0 +1,6 @@
+export {default as AppRegister} from "./register/register"
+export {default as AppLogin} from "./login/login"
+export {default as AppDashboard} from "./dashboard/dashboard"
+export {default as AppFavorites} from "./favorites/favorites"
+export {default as AppFriends} from "./friends/friends"
+export {default as AppProfile} from "./profile/profile"

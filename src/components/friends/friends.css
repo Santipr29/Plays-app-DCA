@@ -1,0 +1,45 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 800px;
+    border: rgba(188, 188, 188, 0.53) 1px solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    gap: 50px;
+}
+
+h3{
+    color: rgb(53, 212, 117);
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 400px){
+
+    
+
+    .container{
+        background-color:  rgb(27, 27, 27);
+        width: 400px; 
+        
+    }
+
+    .card{
+        width: 400px;
+    }
+    
+}
